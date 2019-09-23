@@ -1,0 +1,20 @@
+{
+    "name": "clickpdx/oadp-wordpress-theme",
+    "description": "Theme for OADP",
+    "type": "project",
+    "authors": [
+        {
+            "name": "jack",
+            "email": "brainard@my.lanecc.edu"
+        }
+    ],
+    "repositories":[
+        {
+            "type":"composer",
+            "url":"https://wpackagist.org"
+        }
+    ],
+    "require": {
+        "clickpdx/wireframe-wordpress-theme": "dev-master"
+    }
+}

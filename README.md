@@ -5,14 +5,13 @@ Repository containing Vagrant files and other development scripts.
 
 
 WORKFLOW
-- Clone this repo
-- Install WordPress (into this repo directory)
-- Cd to wp-content/themes
-* Clone <child theme>
+* Clone this repo
+* Install WordPress (into this repo directory)
+    * Optionally require WordPress in composer.json file
 * Run composer install
     * Should install plugins
     * Should install wireframe theme
-    * Optionally install child theme as well
+    * Optionally installs child theme as well
   
 
 @TODO

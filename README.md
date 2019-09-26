@@ -4,18 +4,31 @@ Vagrant development environment
 Repository containing Vagrant files and other development scripts.
 
 
+WORKFLOW
+- Clone this repo
+- Install WordPress (into this repo directory)
+- Cd to wp-content/themes
+- Clone <child theme>
+- Run composer install
+ -- Should install plugins
+  -- Should install wireframe theme
+  -- Optionally install child theme as well
+  
+
 @TODO
-Need to include plugins for:
+COMPOSER: REQUIRE
 - composer/installers
 - custom-sidebars
 - my-social-widget
 - wordpress-importer
 
 
-REQUIRE-DEV
+COMPOSER: REQUIRE-DEV
 - php
 - phpunit
 - wpackagist-plugin/fg-drupal-to-wp
+
+
 
 
 Initial Project Setup

@@ -8,11 +8,11 @@ WORKFLOW
 - Clone this repo
 - Install WordPress (into this repo directory)
 - Cd to wp-content/themes
-- Clone <child theme>
-- Run composer install
- -- Should install plugins
-  -- Should install wireframe theme
-  -- Optionally install child theme as well
+* Clone <child theme>
+* Run composer install
+    * Should install plugins
+    * Should install wireframe theme
+    * Optionally install child theme as well
   
 
 @TODO
@@ -21,6 +21,7 @@ COMPOSER: REQUIRE
 - custom-sidebars
 - my-social-widget
 - wordpress-importer
+- wp-packagist/wireframe (clickpdx/wireframe in GitHub)
 
 
 COMPOSER: REQUIRE-DEV

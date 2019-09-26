@@ -3,6 +3,21 @@ Vagrant development environment
 
 Repository containing Vagrant files and other development scripts.
 
+
+@TODO
+Need to include plugins for:
+- composer/installers
+- custom-sidebars
+- my-social-widget
+- wordpress-importer
+
+
+REQUIRE-DEV
+- php
+- phpunit
+- wpackagist-plugin/fg-drupal-to-wp
+
+
 Initial Project Setup
 
 1. Download vagrant

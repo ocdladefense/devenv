@@ -2,6 +2,38 @@
 Vagrant development environment
 
 Repository containing Vagrant files and other development scripts.
+## Git commands
+* git init
+* git remote add origin <remote_url>
+* git fetch --all --prune
+* git checkout master
+
+## WORKFLOW
+* Clone this repo
+* Install WordPress (into this repo directory)
+    * Optionally require WordPress in composer.json file
+* Run composer install
+    * Should install plugins
+    * Should install wireframe theme
+    * Optionally installs child theme as well
+  
+
+@TODO
+COMPOSER: REQUIRE
+- composer/installers
+- custom-sidebars
+- my-social-widget
+- wordpress-importer
+- wp-packagist/wireframe (clickpdx/wireframe in GitHub)
+
+
+COMPOSER: REQUIRE-DEV
+- php
+- phpunit
+- wpackagist-plugin/fg-drupal-to-wp
+
+
+
 
 Initial Project Setup
 

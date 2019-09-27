@@ -3,10 +3,10 @@ Vagrant development environment
 
 Repository containing Vagrant files and other development scripts.
 ## Git commands
-git init
-git remote add origin <remote_url>
-git fetch --all --prune
-git checkout master
+* git init
+* git remote add origin <remote_url>
+* git fetch --all --prune
+* git checkout master
 
 ## WORKFLOW
 * Clone this repo

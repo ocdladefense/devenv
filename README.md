@@ -2,9 +2,13 @@
 Vagrant development environment
 
 Repository containing Vagrant files and other development scripts.
+## Git commands
+git init
+git remote add origin <remote_url>
+git fetch --all --prune
+git checkout master
 
-
-WORKFLOW
+## WORKFLOW
 * Clone this repo
 * Install WordPress (into this repo directory)
     * Optionally require WordPress in composer.json file

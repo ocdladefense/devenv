@@ -1,6 +1,6 @@
 {
     "name": "clickpdx/devenv",
-    "description": "Theme for OADP",
+    "description": "Development Environment for WordPress",
     "type": "project",
     "authors": [
         {
@@ -15,6 +15,9 @@
         }
     ],
     "require": {
+        "phpunit/phpunit": "^7" 
+    },
+    "require-dev": {
         "clickpdx/wireframe": "dev-master",
         "wpackagist-plugin/custom-sidebars":"dev-trunk",
         "wpackagist-plugin/my-social-widget":"dev-trunk",

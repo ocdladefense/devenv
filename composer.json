@@ -4,7 +4,7 @@
     "type": "project",
     "authors": [
         {
-            "name": "jack",
+            "name": "jack & trevor",
             "email": "brainard@my.lanecc.edu"
         }
     ],
@@ -14,14 +14,22 @@
             "url":"https://wpackagist.org"
         }
     ],
-    "require": {
-        "phpunit/phpunit": "^7" 
-    },
     "require-dev": {
-        "clickpdx/wireframe": "dev-master",
         "wpackagist-plugin/custom-sidebars":"dev-trunk",
         "wpackagist-plugin/my-social-widget":"dev-trunk",
         "wpackagist-plugin/fg-drupal-to-wp":"dev-trunk",
-        "wpackagist-plugin/wordpress-importer":"dev-trunk"
+        "wpackagist-plugin/wordpress-importer":"dev-trunk",
+        "clickpdx/wireframe": "dev-master",
+        "clickpdx/oadp-wordpress-theme": "dev-master"
+    },
+    "extra":{
+        "installer-paths":{
+            "wordpress/wp-content/plugins/custom-sidebars": ["wpackagist-plugin/custom-sidebars"],
+            "wordpress/wp-content/plugins/my-social-widget": ["wpackagist-plugin/my-social-widget"],
+            "wordpress/wp-content/plugins/fg-drupal-to-wp": ["wpackagist-plugin/fg-drupal-to-wp"],
+            "wordpress/wp-content/plugins/wordpress-importer": ["wpackagist-plugin/wordpress-importer"],
+            "wordpress/wp-content/themes/wireframe": ["clickpdx/wireframe"],
+            "wordpress/wp-content/themes/oadp": ["clickpdx/oadp-wordpress-theme"]
+        }
     }
 }

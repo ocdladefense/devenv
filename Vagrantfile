@@ -121,7 +121,6 @@ Vagrant.configure(2) do |config|
     config.vm.provision :shell, :path => File.join( File.dirname(__FILE__), 'run-always.sh' ), run: 'always'
   end
 
-  config.vm.synced_folder "oadp/", "/var/www/html/wp-content/themes/oadp"
 end
 
 

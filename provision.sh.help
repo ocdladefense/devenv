@@ -1,0 +1,23 @@
+#!/bin/bash
+
+# Commands to be executed when installing clickpdx/devenv for use with WordPress.
+
+
+1.  Given an existing DOCUMENT_ROOT directory
+  a. For example, as specified in an Apache2 <VirtualHost> directive.
+
+2. Given that Composer is installed in the given environment
+
+3. Create a directory that is to be DOCUMENT_ROOT
+ a. Use the appropriate permissions for setgid and getfacl/setfacl  -d -m 
+ b. setfacl -d -m g::rwx /DOCUMENT_ROOT
+ c. See https://www.linuxquestions.org/questions/linux-desktop-74/applying-default-permissions-for-newly-created-files-within-a-specific-folder-605129/ for more info
+	d. Set the <gid> git on DOCUMENT_ROOT
+	e. Change the grp permission on DOCUMENT_ROOT to 775 - so group members can manage the directory
+	
+	
+3. Clone the clickpdx/devenv directory to DOCUMENT_ROOT
+
+	a. Run the <git init> command
+	b. Set the remote origin
+	c. 

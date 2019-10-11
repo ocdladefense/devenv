@@ -62,7 +62,9 @@ db_pass: wordpress
 # Plugin's slug or url to the plugin's slug.
 #
 plugins:
-- logbook
+- custom-sidebars
+- fg-drupal-to-wp
+- wordpress-importer
 
 #
 # WordPress Default Theme

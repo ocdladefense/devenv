@@ -1,33 +1,57 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c5ca748c95d772b3a72154a9f3cbd89d",
-    "packages": [
+    "content-hash": "bb1d7315924cee224b719d52c33e7150",
+    "packages": [],
+    "packages-dev": [
+        {
+            "name": "clickpdx/oadp-wordpress-theme",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ocdladefense/oadp.git",
+                "reference": "23d1594cb0a50365338b040d6cc6210243be9572"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ocdladefense/oadp/zipball/23d1594cb0a50365338b040d6cc6210243be9572",
+                "reference": "23d1594cb0a50365338b040d6cc6210243be9572",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-theme",
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "jack",
+                    "email": "brainard@my.lanecc.edu"
+                }
+            ],
+            "description": "A WordPress child theme that uses Wireframe as a parent",
+            "time": "2019-10-01T20:25:53+00:00"
+        },
         {
             "name": "clickpdx/wireframe",
             "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ocdladefense/wireframe.git",
-                "reference": "d9f137226066e30527ad0578310b48a1eab733ab"
+                "reference": "2bf0879528cbc5b9e3f921d4bacb3f0fd3b7d4aa"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ocdladefense/wireframe/zipball/d9f137226066e30527ad0578310b48a1eab733ab",
-                "reference": "d9f137226066e30527ad0578310b48a1eab733ab",
+                "url": "https://api.github.com/repos/ocdladefense/wireframe/zipball/2bf0879528cbc5b9e3f921d4bacb3f0fd3b7d4aa",
+                "reference": "2bf0879528cbc5b9e3f921d4bacb3f0fd3b7d4aa",
                 "shasum": ""
             },
             "require": {
                 "composer/installers": "~1.0",
-                "wpackagist-plugin/custom-sidebars": "dev-trunk",
-                "wpackagist-plugin/my-social-widget": "dev-trunk"
-            },
-            "require-dev": {
-                "phpunit/phpunit": "^7",
-                "wpackagist-plugin/fg-drupal-to-wp": "dev-trunk"
+                "php": "^7"
             },
             "type": "wordpress-theme",
             "notification-url": "https://packagist.org/downloads/",
@@ -37,8 +61,8 @@
                     "email": "trevoruehlinx1@gmail.com"
                 }
             ],
-            "description": "wireframe wordpress theme",
-            "time": "2019-09-27T19:49:56+00:00"
+            "description": "Wireframe Theme for WordPress",
+            "time": "2019-10-08T18:12:00+00:00"
         },
         {
             "name": "composer/installers",
@@ -172,9 +196,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/custom-sidebars.zip?timestamp=1557516154",
-                "reference": null,
-                "shasum": null
+                "url": "https://downloads.wordpress.org/plugin/custom-sidebars.zip?timestamp=1557516154"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -193,16 +215,14 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/fg-drupal-to-wp.zip?timestamp=1569428666",
-                "reference": null,
-                "shasum": null
+                "url": "https://downloads.wordpress.org/plugin/fg-drupal-to-wp.zip?timestamp=1570198652"
             },
             "require": {
                 "composer/installers": "~1.0"
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/fg-drupal-to-wp/",
-            "time": "2019-09-25T16:24:26+00:00"
+            "time": "2019-10-04T14:17:32+00:00"
         },
         {
             "name": "wpackagist-plugin/my-social-widget",
@@ -214,9 +234,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/my-social-widget.zip?timestamp=1559998377",
-                "reference": null,
-                "shasum": null
+                "url": "https://downloads.wordpress.org/plugin/my-social-widget.zip?timestamp=1559998377"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -235,9 +253,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wordpress-importer.zip?timestamp=1563171358",
-                "reference": null,
-                "shasum": null
+                "url": "https://downloads.wordpress.org/plugin/wordpress-importer.zip?timestamp=1563171358"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -247,15 +263,15 @@
             "time": "2019-07-15T06:15:58+00:00"
         }
     ],
-    "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
-        "clickpdx/wireframe": 20,
         "wpackagist-plugin/custom-sidebars": 20,
         "wpackagist-plugin/my-social-widget": 20,
         "wpackagist-plugin/fg-drupal-to-wp": 20,
-        "wpackagist-plugin/wordpress-importer": 20
+        "wpackagist-plugin/wordpress-importer": 20,
+        "clickpdx/wireframe": 20,
+        "clickpdx/oadp-wordpress-theme": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,

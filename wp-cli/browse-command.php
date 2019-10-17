@@ -23,9 +23,9 @@ $browse_command = function( $_, $assoc_args ) {
 	$wp_admin = \WP_CLI\Utils\get_flag_value( $assoc_args, 'wp-admin' );
 
 	if ( true === $wp_admin ) {
-		$url = 'http://clickpdx.oadp/wp-admin/';
+		$url = 'http://wc-17/wp-admin/';
 	} else {
-		$url = 'http://clickpdx.oadp/';
+		$url = 'http://wc-17/';
 	}
 
 	passthru( $exec . ' ' . escapeshellarg( $url ) );

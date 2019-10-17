@@ -15,7 +15,7 @@ cpus: 1
 #
 # Network Settings
 #
-hostname: clickpdx.oadp
+hostname: wc-17
 ip: 192.168.33.10
 
 #
@@ -23,7 +23,7 @@ ip: 192.168.33.10
 # Manage additional entries in the /etc/hosts file using vagrant-hostsupdater
 #
 hostname_aliases:
-  - www.clickpdx.oadp
+  - www.wc-17
 #  - some.subdomain.vccw.test
 
 #
@@ -76,7 +76,7 @@ theme: ''
 # WordPress Options
 #
 options:
-  blogdescription: Hello VCCW.
+  blogdescription: Hello WC-17.
 
 #
 # WordPress Multisite Options
@@ -178,3 +178,5 @@ php_ini:
 
 synced_folder: wordpress
 document_root: /var/www/html
+synced_folder: appserver
+document_root: /var/www/api/public

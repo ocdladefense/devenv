@@ -15,7 +15,7 @@ cpus: 1
 #
 # Network Settings
 #
-hostname: clickpdx.oadp
+hostname: wc19.ocdla
 ip: 192.168.33.10
 
 #
@@ -23,7 +23,7 @@ ip: 192.168.33.10
 # Manage additional entries in the /etc/hosts file using vagrant-hostsupdater
 #
 hostname_aliases:
-  - www.clickpdx.oadp
+  - www.wc19.ocdla
 #  - some.subdomain.vccw.test
 
 #

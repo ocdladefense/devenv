@@ -17,13 +17,13 @@
     "require-dev": {
         "wpackagist-plugin/my-social-widget":"dev-trunk",
         "clickpdx/wireframe": "dev-master",
-        "clickpdx/oadp-wordpress-theme": "dev-master"
+        "brainardj/wireframe-child": "dev-master"
     },
     "extra":{
         "installer-paths":{
             "wordpress/wp-content/plugins/my-social-widget": ["wpackagist-plugin/my-social-widget"],
             "wordpress/wp-content/themes/wireframe": ["clickpdx/wireframe"],
-            "wordpress/wp-content/themes/oadp": ["clickpdx/oadp-wordpress-theme"]
+            "wordpress/wp-content/themes/childtheme": ["brainardj/wireframe-child"]
         }
     }
 }

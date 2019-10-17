@@ -178,5 +178,3 @@ php_ini:
 
 synced_folder: wordpress
 document_root: /var/www/html
-synced_folder: appserver
-document_root: /var/www/api/public

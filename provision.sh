@@ -1,5 +1,17 @@
 #!/bin/bash
 
+
+# create database
+$SITE_KEY = "wc19"
+$DB_USER = "wc19web"
+$DB_USER_HOST = "172.31.22.87"
+$DB_PASSWORD = "myPass"
+$DB_HOST = "198.123.0.123"
+create database {$SITE_KEY}
+grant all privileges on {$SITE_KEY}.* to {$SITE_USER}@"{$DB_USER_HOST}" IDENTIFIED BY {$DB_PASSWORD}
+# grant all privileges on wc19.* to 'wc19web'@'172.31.22.87' identified by '8a9F313a57'
+
+
 # Create an XML file with the Apache2 <VirtualHost> directives.
 # php create-virtual-host "wc19" "wc19.ocdla.org" > ${SITE_NAME}.conf
 # 

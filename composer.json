@@ -18,7 +18,7 @@
         "wpackagist-plugin/my-social-widget":"dev-trunk",
         "clickpdx/wireframe": "dev-master",
         "brainardj/wireframe-child": "dev-master",
-        "clickpdx/appserver": "dev-master"
+        "clickpdx/appserver":"dev-development"
     },
     "extra":{
         "installer-paths":{
@@ -27,5 +27,8 @@
             "wordpress/wp-content/themes/childtheme": ["brainardj/wireframe-child"],
             "appserver":["clickpdx/appserver"]
         }
+    },
+    "require": {
+        "clickpdx/appserver": "dev-development"
     }
 }

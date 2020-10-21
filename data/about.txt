@@ -1,0 +1,27 @@
+** WORKING WITH SQL FILE IN VAGRANT REPO **
+--> This file has to be imported
+The "ocdla.sql" file is now included in the Vagrant repo.  It should This file will need to be updated periodically.  It contains content and settings from the actual OCDLA WordPress website.
+
+
+For more examples of importing / exporting SQL files into MySQL:
+	https://stackoverflow.com/questions/9293042/how-to-perform-a-mysqldump-without-a-password-prompt
+
+
+1.) Import the SQL file into the ocdla database:
+	sudo mysql -p theDatabase < data/ocdla.sql
+
+
+2.) Then you'll need to figure out how to change the relevant WordPress settings:
+  -- Login to WordPress console and change URL (if necessary)
+  -- Make manual changes to WordPress configuration/settings tables
+  
+
+3.) Dump the ocdla database
+  -- Dump the database and export it back to the repo using the mysqldump database utility
+   -- This is so we don't have to make these changes again.
+   
+	sudo mysqldump -p ocdla > data/ocdla.sql
+
+
+4.) Git add / commit / push
+   -- Push SQL changes back to Vagrant repo

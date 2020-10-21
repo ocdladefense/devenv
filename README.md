@@ -2,7 +2,7 @@
 Use Vagrant to download and configure a LAMP stack for WordPress development.  The environment is downloaded into a guest virtual machine on your local computer.
 
 ## Installation
-After installing this repository and running <code>vagrant up</code> use the <vagrant ssh> command to login to the guest machine.  The guest machine's shared folder, <code>/vagrant</code>, should reflect all of the files in this repository.
+After installing this repository and running <code>vagrant up</code> use the <code>vagrant ssh</code> command to login to the guest machine.  The guest machine's shared folder, <code>/vagrant</code>, should reflect all of the files in this repository.
    
 Before installing this repository, download the Vagrant VM environment at https://www.vagrantup.com/downloads.html.  Once installed, you can use Vagrant command line tools - especially <code>vagrant up</code> -- to complete the installation.  The <code>vagrant up</code> command retrieves configuration settings from the Vagrantfile to download Virtual Box; then Composer can be used to complete the WordPress installation.
    

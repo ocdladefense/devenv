@@ -1,4 +1,5 @@
 #!/bin/bash
+# This file is not being used right now. 10/21/2020
 
 
 # create database

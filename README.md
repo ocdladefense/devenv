@@ -6,8 +6,11 @@ After installing this repository and running <code>vagrant up</code> use the <co
    
 Before installing this repository, download the Vagrant VM environment at https://www.vagrantup.com/downloads.html.  Once installed, you can use Vagrant command line tools - especially <code>vagrant up</code> -- to complete the installation.  The <code>vagrant up</code> command retrieves configuration settings from the Vagrantfile to download Virtual Box; then Composer can be used to complete the WordPress installation.
    
+### Command-line installation
+Clone this repository then run the <code>vagrant up --provision</code> command.
+   
 ### Vagrant configuration
-Configurations are listed as YML files.  Default.yml is responsible for configuring environment variables; various playbooks are responsible for installing and configuring additional software.
+Configurations are listed as YML files.  Default.yml is responsible for configuring environment variables; various playbooks are responsible for installing and configuring additional software.  Playbooks are loaded in using the <code>playbooks/playbooks.yml</code> file.
    
 Other programs installed as part of this environment are:
 -  Apache2, The Apache web server.

@@ -1,13 +1,28 @@
-# devenv
-Vagrant development environment
+# ocdladefense/vagrant-environment
+Use Vagrant to download and configure a LAMP stack for WordPress development.  The environment is downloaded into a guest virtual machine on your local computer.
 
-Repository containing Vagrant files and other development scripts.
-## Git commands
-* git init
-* git remote add origin <remote_url>
-* git fetch --all --prune
-* git checkout master
+## Installation
+After installing this repository and running <code>vagrant up</code> use the <code>vagrant ssh</code> command to login to the guest machine.  The guest machine's shared folder, <code>/vagrant</code>, should reflect all of the files in this repository.
+   
+Before installing this repository, download the Vagrant VM environment at https://www.vagrantup.com/downloads.html.  Once installed, you can use Vagrant command line tools - especially <code>vagrant up</code> -- to complete the installation.  The <code>vagrant up</code> command retrieves configuration settings from the Vagrantfile to download Virtual Box; then Composer can be used to complete the WordPress installation.
+   
+### Vagrant configuration
+Configurations are listed as YML files.  Default.yml is responsible for configuring environment variables; various playbooks are responsible for installing and configuring additional software.
+   
+Other programs installed as part of this environment are:
+-  Apache2, The Apache web server.
+-  MySQL, The MySQL database server.
+-  PHP, The PHP CLI and Apache2 modules.
+-  WordPress, The popular open-source CMS/blog software.
+-  Composer, The PHP package manager.
 
+
+### Installation - Guest/Host
+Vagrant and the <code>vagrant up</code> command will install a guest machine on your local computer (the host machine.)  Guest and host machines communicate through one or more shared folders - typically <code>/vagrant</code> folder or any additional shared folders specified in the Vagrantfile.
+   
+### Installation - Apache
+   
+   
 ## WORKFLOW
 * Clone this repo
 * Install WordPress (into this repo directory)

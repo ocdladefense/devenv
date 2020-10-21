@@ -1,8 +1,8 @@
 # ocdladefense/vagrant-environment
-Use Vagrant to download and configure a LAMP stack for WordPress development.
+Use Vagrant to download and configure a LAMP stack for WordPress development.  The environment is downloaded into a guest virtual machine.
 
 ## Installation
-Before installing this repository, download the Vagrant VM environment at https://www.vagrantup.com/downloads.html.  Once installed, you can use Vagrant command line tools - especially <vagrant up> -- to complete the installation.  The <vagrant up> command retrieves configuration settings from the Vagrantfile to download Virtual Box; then Composer can be used to complete the WordPress installation.
+Before installing this repository, download the Vagrant VM environment at https://www.vagrantup.com/downloads.html.  Once installed, you can use Vagrant command line tools - especially <code>vagrant up</code> -- to complete the installation.  The <code>vagrant up</code> command retrieves configuration settings from the Vagrantfile to download Virtual Box; then Composer can be used to complete the WordPress installation.
    
 Other programs installed as part of this environment are:
 -  Apache2, The Apache web server.
@@ -13,7 +13,7 @@ Other programs installed as part of this environment are:
 
 
 ### Installation - Guest/Host
-Vagrant and the <vagrant up> command will install a guest machine on your local computer (the host machine.)  Guest and host machines communicate through one or more shared folders - typically /vagrant folder or any additional shared folders specified in the Vagrantfile.
+Vagrant and the <code>vagrant up</code> command will install a guest machine on your local computer (the host machine.)  Guest and host machines communicate through one or more shared folders - typically <code>/vagrant</code> folder or any additional shared folders specified in the Vagrantfile.
    
 ### Installation - Apache
    

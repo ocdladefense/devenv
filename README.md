@@ -1,13 +1,8 @@
 # ocdladefense/vagrant-environment
 Vagrant development environment.
 
-## 
+## Installation
 
-## Git commands
-* git init
-* git remote add origin <remote_url>
-* git fetch --all --prune
-* git checkout master
 
 ## WORKFLOW
 * Clone this repo

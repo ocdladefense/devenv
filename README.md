@@ -1,7 +1,8 @@
-# devenv
-Vagrant development environment
+# ocdladefense/vagrant-environment
+Vagrant development environment.
 
-Repository containing Vagrant files and other development scripts.
+## 
+
 ## Git commands
 * git init
 * git remote add origin <remote_url>

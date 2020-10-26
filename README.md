@@ -93,3 +93,5 @@ The plugin wp-media-manager-lite/wp-media-manager-lite.php has been deactivated 
 To Do:
 
 copy site-example.json to site.json in the script
+
+

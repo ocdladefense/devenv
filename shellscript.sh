@@ -44,13 +44,15 @@ sudo a2enmod php7.4
 sudo service apache2 restart
 
 #import sql file
+#May have to Update database the prompt url is:
+#http://dev.ocdla.org/wp-admin/upgrade.php?_wp_http_referer=%2Fwp-admin%2F
 sudo mysql -u wordpress -ppassword wordpress</vagrant/data/ocdla.sql
 
 
 #copy site-example.json to site.json
-cd vagrant/wordpress/wp-content/themes/wireframe
+cp /vagrant/wp-cli/wireframe-site.json /vagrant/wordpress/wp-content/themes/wireframe/site.json
 
-cp site-example.json site.json
+cp /vagrant/wp-cli/ocdla-site.json /vagrant/wordpress/wp-content/themes/ocdla/site.json
 
 
 

@@ -23,9 +23,9 @@ $browse_command = function( $_, $assoc_args ) {
 	$wp_admin = \WP_CLI\Utils\get_flag_value( $assoc_args, 'wp-admin' );
 
 	if ( true === $wp_admin ) {
-		$url = 'http://dev.env.ocdla/wp-admin/';
+		$url = 'http://dev.ocdla.org/wp-admin/';
 	} else {
-		$url = 'http://dev.env.ocdla/';
+		$url = 'http://dev.ocdla.org/';
 	}
 
 	passthru( $exec . ' ' . escapeshellarg( $url ) );

@@ -68,6 +68,7 @@ Vagrant.configure(2) do |config|
     config.vm.provision :shell, :path => File.join( File.dirname(__FILE__), 'provision-pre.sh' )
   end
 
+
   config.vm.provider :virtualbox do |vb|
     vb.linked_clone = _conf['linked_clone']
     vb.name = _conf['hostname']

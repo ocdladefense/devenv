@@ -76,4 +76,20 @@ Initial Project Setup
 19. Get content from xml file
 20. Import/Export menus
 
+Update database prompt url
+http://dev.ocdla.org/wp-admin/upgrade.php?_wp_http_referer=%2Fwp-admin%2F
 
+
+plugin error messages:
+The plugin create-and-assign-categories-for-pages/create-and-assign-categories-for-pages.php has been deactivated due to an error: Plugin file does not exist.
+
+The plugin custom-post-widget/custom-post-widget.php has been deactivated due to an error: Plugin file does not exist.
+
+The plugin modal/modal.php has been deactivated due to an error: Plugin file does not exist.
+
+The plugin wp-media-manager-lite/wp-media-manager-lite.php has been deactivated due to an error: Plugin file does not exist.
+
+
+To Do:
+
+copy site-example.json to site.json in the script

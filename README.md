@@ -90,8 +90,13 @@ The plugin modal/modal.php has been deactivated due to an error: Plugin file doe
 The plugin wp-media-manager-lite/wp-media-manager-lite.php has been deactivated due to an error: Plugin file does not exist.
 
 
-To Do:
 
-copy site-example.json to site.json in the script
+
+
+
+Login Credentials:
+
+Username:  admin@ocdla.org
+Password:  password
 
 

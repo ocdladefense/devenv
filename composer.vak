@@ -1,0 +1,11 @@
+
+{
+    "foobar":{
+        "clickpdx/wireframe": "dev-master",
+        "brainardj/wireframe-child": "dev-master",
+        "clickpdx/appserver":"dev-development",
+        "wordpress/wp-content/themes/wireframe": ["clickpdx/wireframe"],
+        "wordpress/wp-content/themes/childtheme": ["brainardj/wireframe-child"],
+        "appserver":["clickpdx/appserver"]
+    }
+}

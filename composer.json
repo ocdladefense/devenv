@@ -15,14 +15,19 @@
         }
     ],
     "require-dev": {
-        "wpackagist-plugin/my-social-widget":"dev-trunk",
+        "wpackagist-plugin/custom-sidebars":"dev-trunk",
+        "wpackagist-plugin/custom-post-widget":"dev-trunk",
+        "wpackagist-plugin/wp-media-manager-lite":"dev-trunk"
     },
     "extra":{
         "installer-paths":{
-            "wordpress/wp-content/plugins/my-social-widget": ["wpackagist-plugin/my-social-widget"],
-        }
+            "wp-content/plugins/custom-sidebars":["wpackagist-plugin/custom-sidebars"],
+            "wp-content/plugins/custom-post-widget":["wpackagist-plugin/custom-post-widget"],
+            "wp-content/plugins/wp-media-manager-lite":["wpackagist-plugin/wp-media-manager-lite"]
+        }   
     },
-    "require": {
-        "clickpdx/appserver": "dev-development"
+    "require":{
+        "composer/installers": "~1.0"
     }
+    
 }

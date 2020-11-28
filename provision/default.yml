@@ -64,9 +64,6 @@ plugins:
 - custom-sidebars
 - fg-drupal-to-wp
 - wordpress-importer
-#- content-post-widget
-#- create-and-assign-catagories-for-pages
-#- wp-media-manager-lite
 
 #
 # WordPress Default Theme

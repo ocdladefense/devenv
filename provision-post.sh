@@ -1,12 +1,16 @@
-#! /usr/bin/env bash
+#!/usr/bin/env bash
 
 set -ex
+
+cp /vagrant/composer.json /vagrant/wordpress/composer.json
+
+sudo composer self-update
+
+
 
 
 cd /vagrant/wordpress/wp-content/themes
 
-#remove built in themes
-#rm -rf twentynineteen twentyseventeen twentytwenty
 
 
 #set up known hosts for github
@@ -54,5 +58,7 @@ cp /vagrant/wp-cli/wireframe-site.json /vagrant/wordpress/wp-content/themes/wire
 
 cp /vagrant/wp-cli/ocdla-site.json /vagrant/wordpress/wp-content/themes/ocdla/site.json
 
+cd /vagrant/wordpress
+composer update
 
 
